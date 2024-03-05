@@ -29,9 +29,3 @@ sequenceDiagram
 
     Note over B: JavaScript updates the DOM with notes
 
-    B->>+S: POST /new_note_spa with note data (AJAX)
-    note right of S: Process note, update database
-    S-->>-B: JSON response (success message)
-    
-    Note over B: JavaScript updates the DOM with the new note
-
